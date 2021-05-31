@@ -1,0 +1,21 @@
+{
+  "name": "socket-sistema-tickets",
+  "version": "0.0.1",
+  "description": "Sistema de Tickets con Sockets usando Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server/server",
+    "dev": "nodemon ./server/server -e js,html"
+  },
+  "keywords": [
+    "sockets",
+    "node",
+    "express"
+  ],
+  "author": "Juan Carlos Jiménez Gutiérrez <jcjimenez29@misena.edu.co>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
