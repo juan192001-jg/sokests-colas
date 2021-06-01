@@ -36,7 +36,6 @@ let sound = () => {
                 // Auto-play was prevented
                 // Show paused UI.
             });
-
     }
 }
 
